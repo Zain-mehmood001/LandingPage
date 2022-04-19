@@ -42,7 +42,7 @@ body{
 
 .section_one .button{
     background-color: #2770e4;
-    padding: 10px 25px 8px 25px;
+    padding: 8px 25px 8px 25px;
     width: 80px;
     text-align: center;
     font-size: 18px;
@@ -89,7 +89,7 @@ a{
 /* section 2 */
 .sectiontwo{
     background-color: rgb(255, 255, 255);
-    padding-bottom: 100px;
+    padding-bottom: 135px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,6 +127,98 @@ a{
 .card{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* section three */
+.sectionthree{
+    background-color: #E5E7EB;
+    padding: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quotetext{
+    font-size: 36px;
+    font-weight: 300;
+    text-justify: auto;
+    width: 843px;
+    color: #1F2937;
+    font-style: italic;
+}
+.author{
+    margin-left: 450px;
+    font-size: x-large;
+    font-weight: 800;
+    color:#1F2937;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 93px;
+}
+/* section four */
+.sectionfour{
+    background: #ffffff;
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 120px;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 80px;
+}
+.calltoaction{
+    background-color: #3882F6;
+    width: -webkit-fill-available;
+    height: auto;
+    border-radius: 8px;
+    padding: 50px 60px 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 230px;
+
+}
+
+.sectionfour .one{
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionfour .two{
+    display: flex;
+}
+
+.txt{
+    font-size: x-large;
+    font-weight: 600;
+
+}
+.sub{
+    font-weight: 300;
+}
+.sectionfour .button{
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 5px 31px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.footer{
+    color: white;
+    padding: 40px;
+    background-color: #1F2937;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
